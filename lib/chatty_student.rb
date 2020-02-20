@@ -10,4 +10,8 @@ class ChattyStudent < Student
     Okay well let me just tell you who died..."
   end
 
+  def raise_hand
+    10.times{super}
+  end
+
 end
